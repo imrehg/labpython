@@ -1,0 +1,100 @@
+[Package Name]
+Name=oglib_labpython
+Version=1.2
+Release=1
+
+[Description]
+Description="The LabPython package contains several routines for interfacing to Python."
+Summary="OpenG LabPython Tools"
+License=LGPL
+Copyright="2002 - 2006 Okko Willeboordse, Jim Kring, Rolf Kalbermatter"
+Distribution="OpenG Toolkit"
+Icon=labpython.bmp
+Vendor=OpenG.org
+URL=http://openg.org/labpython
+Packager="Jim Kring <jim@jimkring.com>"
+
+[Platform]
+Exclusive_LabVIEW_Version=>=6.1
+Exclusive_LabVIEW_System=All
+Exclusive_OS=All
+
+[Script VIs]
+Source Dir=""
+PreInstall=""
+PostInstall=""
+PreUninstall=""
+PostUninstall=""
+Verify=""
+PreBuild=""
+PostBuild=""
+
+[Dependencies]
+AutoReqProv=FALSE
+Requires=ogrsc_dynamicpalette>=2.0
+Conflicts=""
+
+[Files]
+Num File Groups=8
+
+[File Group 0]
+Source Dir=built/labpython
+Target Dir=<OpenG.lib>/labpython
+Replace Mode=Always
+Num Files=1
+File 0=*.txt
+
+[File Group 1]
+Source Dir=built/labpython/labpython.llb
+Target Dir=<OpenG.lib>/labpython/labpython.llb
+Replace Mode=Always
+Num Files=2
+File 0=*.vi
+File 1=*.ctl
+
+[File Group 2]
+Source Dir=built/labpython
+Target Dir=<OpenG.lib>/labpython
+Replace Mode=Always
+Exclusive_OS="Windows NT,Windows 9x"
+Num Files=1
+File 0=lvpython.dll
+
+[File Group 3]
+Source Dir=built/labpython
+Target Dir=<OpenG.lib>/labpython
+Replace Mode=Always
+Exclusive_OS=Linux
+Num Files=1
+File 0=lvpython.so
+
+[File Group 4]
+Source Dir=built/labpython
+Target Dir=<resource>/labpython
+Replace Mode=Always
+Exclusive_OS="Windows NT,Windows 9x"
+Num Files=1
+File 0=pytscript.dll
+
+[File Group 5]
+Source Dir=built/labpython
+Target Dir=<OpenG.lib>/labpython
+Replace Mode=Always
+Exclusive_OS=Linux
+Num Files=1
+File 0=pytscript.so
+
+[File Group 6]
+Source Dir="Dynamic Palette MNUs"
+Target Dir=<user.lib>/_dynamicpalette_dirs/comm
+Replace Mode=Always
+Num Files=1
+File 0=oglib_labpython.mnu
+
+[File Group 7]
+Source Dir="Dynamic Palette MNUs"
+Target Dir=<user.lib>/_dynamicpalette_dirs/OpenG
+Replace Mode=Always
+Num Files=1
+File 0=oglib_labpython.mnu
+
