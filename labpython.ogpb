@@ -78,7 +78,7 @@ File 0=pytscript.dll
 
 [File Group 5]
 Source Dir=built/labpython
-Target Dir=<OpenG.lib>/labpython
+Target Dir=<resource>/labpython
 Replace Mode=Always
 Exclusive_OS=Linux
 Num Files=1
