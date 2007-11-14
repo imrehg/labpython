@@ -57,6 +57,9 @@ Call-Back VI 1="build_support/Call-Back VI - Rem namespace from Window Title.vi"
 # included in the build.  Keynames for this section are=""
 # arbitrary=""
 VI 1="source/labpython.llb/PYTHON VI Tree.vi"
+VI 2="examples/PYTHON Array Example.vi"
+VI 3="examples/PYTHON Symple Execute.vi"
+VI 4="examples/PYTHON Test Script Node.vi"
 
 [Dynamic VIs]
 ###########################################################=""
@@ -70,6 +73,16 @@ LibDir 1=<application>
 [Destination 1]
 Source Dir="source/labpython.llb"
 Target Dir=labpython.llb
+Convert Target to LLB=FALSE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+
+[Destination 2]
+Source Dir=examples
+Target Dir=examples
 Convert Target to LLB=FALSE
 Convert Target to EXE=FALSE
 Save Level=0
