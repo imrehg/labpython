@@ -78,7 +78,7 @@ File 0=lvpython.so
 
 [File Group 5]
 Source Dir=built/labpython
-Target Dir=<resource>/labpython
+Target Dir=<resource>/script
 Replace Mode=Always
 Exclusive_OS="Windows NT,Windows 9x"
 Num Files=1
@@ -86,7 +86,7 @@ File 0=pytscript.dll
 
 [File Group 6]
 Source Dir=built/labpython
-Target Dir=<resource>/labpython
+Target Dir=<resource>/script
 Replace Mode=Always
 Exclusive_OS=Linux
 Num Files=1
