@@ -17,7 +17,7 @@ Packager="Jim Kring <jim@jimkring.com>"
 [Script VIs]
 
 [Dependencies]
-Requires="ogrsc_dynamicpalette >= 2.0"
+Requires="ogrsc_dynamicpalette >= 0.1"
 AutoReqProv=FALSE
 
 [Platform]

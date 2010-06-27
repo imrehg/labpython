@@ -31,7 +31,7 @@ PostBuild=""
 
 [Dependencies]
 AutoReqProv=FALSE
-Requires=ogrsc_dynamicpalette>=2.0
+Requires=ogrsc_dynamicpalette>=0.1
 Conflicts=""
 
 [Files]
